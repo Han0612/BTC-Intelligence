@@ -1,0 +1,296 @@
+[
+  {
+    "title": "US-Iran military conflict escalates",
+    "relevance": "INDIRECT",
+    "importance": "Critical",
+    "category": "GEOPOLITICS",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "Russia launches invasion of Ukraine",
+    "relevance": "INDIRECT",
+    "importance": "High",
+    "category": "GEOPOLITICS",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "Israel launches airstrikes on Iran",
+    "relevance": "INDIRECT",
+    "importance": "High",
+    "category": "GEOPOLITICS",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "US announces sanctions on Iran oil exports",
+    "relevance": "INDIRECT",
+    "importance": "High",
+    "category": "GEOPOLITICS",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "Ukraine and Russia agree ceasefire",
+    "relevance": "INDIRECT",
+    "importance": "High",
+    "category": "GEOPOLITICS",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "Oil supply disruption pushes energy prices higher",
+    "relevance": "INDIRECT",
+    "importance": "High",
+    "category": "ENERGY",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "Federal Reserve issues FOMC statement",
+    "relevance": "INDIRECT",
+    "importance": "High",
+    "category": "MONETARY_POLICY",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "Federal Reserve announces unexpected rate cut",
+    "relevance": "INDIRECT",
+    "importance": "Critical",
+    "category": "MONETARY_POLICY",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "ECB announces interest rate decision",
+    "relevance": "INDIRECT",
+    "importance": "High",
+    "category": "MONETARY_POLICY",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "Bank of Japan announces interest rate decision",
+    "relevance": "INDIRECT",
+    "importance": "High",
+    "category": "MONETARY_POLICY",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "美国央行公布利率决议",
+    "relevance": "INDIRECT",
+    "importance": "High",
+    "category": "MONETARY_POLICY",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "US CPI inflation report surprises markets",
+    "relevance": "INDIRECT",
+    "importance": "High",
+    "category": "ECONOMIC_DATA",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "US PCE inflation data released",
+    "relevance": "INDIRECT",
+    "importance": "High",
+    "category": "ECONOMIC_DATA",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "US nonfarm payrolls exceed expectations",
+    "relevance": "INDIRECT",
+    "importance": "High",
+    "category": "ECONOMIC_DATA",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "US GDP data released",
+    "relevance": "INDIRECT",
+    "importance": "High",
+    "category": "ECONOMIC_DATA",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "美国非农就业数据发布",
+    "relevance": "INDIRECT",
+    "importance": "High",
+    "category": "ECONOMIC_DATA",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "US Treasury yields surge after auction",
+    "relevance": "INDIRECT",
+    "importance": "High",
+    "category": "FINANCIAL_RISK",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "Dollar index rallies to yearly high",
+    "relevance": "INDIRECT",
+    "importance": "High",
+    "category": "FINANCIAL_RISK",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "US stock market plunges on systemic crisis",
+    "relevance": "INDIRECT",
+    "importance": "Critical",
+    "category": "FINANCIAL_RISK",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "Bank run sparks systemic crisis",
+    "relevance": "INDIRECT",
+    "importance": "Critical",
+    "category": "FINANCIAL_RISK",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "Bitcoin ETF approval draws investor interest",
+    "relevance": "DIRECT",
+    "importance": "High",
+    "category": "ETF",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "Bitcoin ETF reports record inflows",
+    "relevance": "DIRECT",
+    "importance": "High",
+    "category": "ETF",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "Binance exchange halts withdrawals",
+    "relevance": "DIRECT",
+    "importance": "High",
+    "category": "EXCHANGE",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "Binance suffers a major hack",
+    "relevance": "DIRECT",
+    "importance": "High",
+    "category": "EXCHANGE",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "SEC approves Bitcoin ETF",
+    "relevance": "DIRECT",
+    "importance": "High",
+    "category": "ETF",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "Institution buys Bitcoin for corporate treasury",
+    "relevance": "DIRECT",
+    "importance": "Medium",
+    "category": "INSTITUTIONAL",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "These Senate races may determine Social Security benefits",
+    "relevance": "IRRELEVANT",
+    "importance": "Low",
+    "category": "OTHER",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "Social Security retirement benefits discussed by candidates",
+    "relevance": "IRRELEVANT",
+    "importance": "Low",
+    "category": "OTHER",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "For JPMorgan and Amazon, fighting AI bots may not be a winning strategy",
+    "relevance": "IRRELEVANT",
+    "importance": "Low",
+    "category": "OTHER",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "Anthropic plans a Nasdaq IPO",
+    "relevance": "IRRELEVANT",
+    "importance": "Low",
+    "category": "OTHER",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "Local bank hires a new AI business manager",
+    "relevance": "IRRELEVANT",
+    "importance": "Low",
+    "category": "OTHER",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "AI company launches a photography drone",
+    "relevance": "IRRELEVANT",
+    "importance": "Low",
+    "category": "OTHER",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "Best high-yield savings accounts this month",
+    "relevance": "IRRELEVANT",
+    "importance": "Low",
+    "category": "OTHER",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "A new gold ETF for retirement savers",
+    "relevance": "IRRELEVANT",
+    "importance": "Low",
+    "category": "OTHER",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "Senate candidates discuss retirement welfare",
+    "relevance": "IRRELEVANT",
+    "importance": "Low",
+    "category": "OTHER",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "Software security update released for Python developers",
+    "relevance": "IRRELEVANT",
+    "importance": "Low",
+    "category": "OTHER",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "Garden wins local flower competition",
+    "relevance": "IRRELEVANT",
+    "importance": "Low",
+    "category": "OTHER",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "普通参议院选举报道讨论退休福利",
+    "relevance": "IRRELEVANT",
+    "importance": "Low",
+    "category": "OTHER",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "某科技企业发布新的人工智能工具",
+    "relevance": "IRRELEVANT",
+    "importance": "Low",
+    "category": "OTHER",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "Something big is coming",
+    "relevance": "UNKNOWN",
+    "importance": "Low",
+    "category": "OTHER",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "Breaking",
+    "relevance": "UNKNOWN",
+    "importance": "Low",
+    "category": "OTHER",
+    "label_source": "人工合成质量回归，非真实新闻"
+  },
+  {
+    "title": "New tariffs announced in trade war",
+    "relevance": "INDIRECT",
+    "importance": "High",
+    "category": "TRADE_POLICY",
+    "label_source": "人工合成质量回归，非真实新闻"
+  }
+]

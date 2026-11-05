@@ -21,7 +21,6 @@ CREATE TABLE IF NOT EXISTS candles (
     CHECK(open_time_ms % 60000 = 0 AND close_time_ms = open_time_ms + 59999),
     CHECK(event_time_ms >= close_time_ms AND collected_at_ms >= 0)
 );
-PRAGMA user_version=1;
 """
 
 
@@ -33,6 +32,8 @@ class Store:
         self.connection.execute("PRAGMA journal_mode=WAL")
         self.connection.execute("PRAGMA busy_timeout=5000")
         self.connection.executescript(SCHEMA)
+        if self.connection.execute("PRAGMA user_version").fetchone()[0] < 1:
+            self.connection.execute("PRAGMA user_version=1")
 
     def close(self) -> None:
         self.connection.close()

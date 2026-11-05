@@ -14,6 +14,7 @@ from .config import load_settings
 from .database import Store, database_status
 from .logging_setup import setup_logging
 from .service import Collector
+from .intelligence.cli import COMMANDS,add_commands,execute
 
 
 def positive_seconds(value: str) -> float:
@@ -51,16 +52,20 @@ async def collect(settings, command: str, seconds: float | None) -> int:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="BTC Intelligence M1：真实 BTCUSDT 1m 现货行情")
+    parser = argparse.ArgumentParser(description="BTC Intelligence：M1 真实行情与 M2 全球新闻、社区情报")
     commands = parser.add_subparsers(dest="command", required=True)
     commands.add_parser("backfill", help="通过官方 REST 初始化历史并补齐缺口")
     run = commands.add_parser("run", help="持续采集；Ctrl+C 或 SIGTERM 安全停止")
     run.add_argument("--seconds", type=positive_seconds, help="限时运行，用于真实接口验收")
     status = commands.add_parser("status", help="只读查看数据库条数、来源、缺口和新鲜度")
     status.add_argument("--json", action="store_true", help="输出 JSON 状态")
+    add_commands(commands,positive_seconds)
     args = parser.parse_args()
     try:
         settings = load_settings()
+        if args.command in COMMANDS:
+            setup_logging(settings)
+            return asyncio.run(execute(args,settings))
         if args.command == "status":
             result = database_status(settings.db_path)
             if args.json:

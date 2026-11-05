@@ -6,13 +6,45 @@ __pycache__/
 .env
 .env.*
 !.env.example
+
+# 本地采集数据、简报、日志和验收备份
 data/*
 !data/.gitkeep
 logs/*
 !logs/.gitkeep
 *.sqlite*
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.log
+*.log.*
+backups/
+*.bak
+*.backup
+
+# 本机缓存与临时文件
+.cache/
+tmp/
+*.tmp
+*~
 .DS_Store
 build/
 dist/
 .coverage
 htmlcov/
+
+# 本机凭证
+*.pem
+*.key
+*.p12
+*.pfx
+*.token
+.netrc
+credentials.json
+secrets.json
+token.json
+tokens.json
+cookies.json
+cookies.txt
+.secrets/

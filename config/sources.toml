@@ -1,0 +1,131 @@
+# 仅本地个人研究，保留 RSS 摘要与链接，不请求付费正文。
+# interval 为秒；允许按来源提高间隔，不允许低于 120 秒。
+[[sources]]
+id = "decrypt"
+publisher_id = "decrypt"
+name = "Decrypt"
+kind = "crypto"
+url = "https://decrypt.co/feed"
+interval = 300
+
+[[sources]]
+id = "cointelegraph"
+publisher_id = "cointelegraph"
+name = "Cointelegraph"
+kind = "crypto"
+url = "https://cointelegraph.com/rss"
+interval = 300
+
+[[sources]]
+id = "coindesk"
+publisher_id = "coindesk"
+name = "CoinDesk"
+kind = "crypto"
+url = "https://www.coindesk.com/arc/outboundfeeds/rss/"
+interval = 300
+
+[[sources]]
+id = "wsj"
+publisher_id = "dow_jones"
+name = "The Wall Street Journal"
+kind = "global"
+url = "https://feeds.content.dowjones.io/public/rss/RSSWorldNews"
+interval = 300
+
+[[sources]]
+id = "cnbc"
+publisher_id = "cnbc"
+name = "CNBC"
+kind = "macro"
+url = "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+interval = 300
+
+[[sources]]
+id = "bloomberg"
+publisher_id = "bloomberg"
+name = "Bloomberg"
+kind = "macro"
+url = "https://feeds.bloomberg.com/markets/news.rss"
+interval = 300
+
+[[sources]]
+id = "fed"
+publisher_id = "federal_reserve"
+name = "Federal Reserve"
+kind = "official"
+url = "https://www.federalreserve.gov/feeds/press_all.xml"
+interval = 600
+stale_hours = 336
+
+[[sources]]
+id = "sec"
+publisher_id = "sec"
+name = "SEC"
+kind = "official"
+url = "https://www.sec.gov/news/pressreleases.rss"
+interval = 600
+stale_hours = 336
+
+[[sources]]
+id = "hn"
+publisher_id = "hacker_news"
+name = "Hacker News"
+kind = "social"
+url = "https://hacker-news.firebaseio.com/v0/"
+interval = 300
+stale_hours = 72
+
+[[sources]]
+id = "reuters"
+publisher_id = "reuters"
+name = "Reuters"
+kind = "global"
+url = "https://www.reuters.com/tools/rss"
+enabled = false
+restriction = "未找到经核验的现行免费官方新闻 RSS；旧入口超时；Reuters Connect 需授权。"
+
+[[sources]]
+id = "wallstreetcn"
+publisher_id = "wallstreetcn"
+name = "华尔街见闻"
+kind = "macro"
+url = "https://wallstreetcn.com/live"
+enabled = false
+restriction = "公开页面可访问；未核实公开自动采集许可与官方开放接口，待授权核验/M2.5。"
+
+[[sources]]
+id = "ap"
+publisher_id = "ap"
+name = "AP News"
+kind = "global"
+url = "https://apnews.com/hub/world-news"
+enabled = false
+restriction = "本机公开页面 HTTP 403；未获得 AP 授权 API，不抓取。"
+
+[[sources]]
+id = "bls"
+publisher_id = "bls"
+name = "Bureau of Labor Statistics"
+kind = "official"
+url = "https://www.bls.gov/feed/news_release/rss.xml"
+enabled = false
+restriction = "官方 RSS 本机 HTTP 403；不绕行。"
+
+[[sources]]
+id = "treasury"
+publisher_id = "us_treasury"
+name = "U.S. Treasury"
+access_status = "NOT_CONFIGURED"
+kind = "official"
+url = "https://home.treasury.gov/system/files/136/treasury-rss.xml"
+enabled = false
+restriction = "候选旧 RSS 历史404，本轮2026-11-02读取超时；待核实当前发布入口，未接通。"
+
+[[sources]]
+id = "reddit"
+publisher_id = "reddit"
+name = "Reddit"
+kind = "social"
+url = "https://oauth.reddit.com/"
+enabled = false
+restriction = "外部 Data API 待平台批准、OAuth 与用途许可；未申请、未采集，不等同于已接通。"
